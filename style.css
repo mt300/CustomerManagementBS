@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    height: 100vh;
+    background-color: #c6c6c6;
+}
+
+.header {
+    margin: 10px;
+    padding: 10px;
+}
+
+.content {
+    display: flex;
+    width: 90vw;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.find-input {
+    margin-bottom: 5px;
+}
+
+#current-board {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+
+#history-board {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.register {
+    margin: 10px;
+    padding: 10px;
+    /* border: 1px solid red; */
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.service-tags {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 2px;
+    margin: 2px 0;
+}
+.tag {
+    border-radius: 10%;
+    border: 1px solid #bdb495;
+    background-color: #f8f2ce;
+    padding: 2px;
+    margin: 1px;
+}
+
+.client {
+    border: 1px solid #bdb495;
+    border-radius: 8px;
+    display: flex;
+    width: 450px;
+    min-height: 100px;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+.history {
+    border: 1px solid #bdb495;
+    border-radius: 8px;
+    background-color: #bdb495;
+    display: flex;
+    width: 450px;
+    min-height: 100px;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 5px 0;
+    padding: 1%;
+}
+
+.value {
+    border: 1px solid #bdb495;
+    border-radius: 8px;
+    background-color: #f8f2ce;
+    padding: 1%;
+}
+.name {
+    border: 1px solid #bdb495;
+    background-color: #f8f2ce;
+    padding: 1%;
+    border-radius: 8px;
+
+}
+input {
+    background-color: #f8f2ce;
+    border-radius: 8px;
+    padding: 1%;
+}
+select {
+    background-color: #f8f2ce;
+    border-radius: 8px;
+}
+
+button {
+    background-color: #f8f2ce;
+    border: 2px solid #bdb495;
+}

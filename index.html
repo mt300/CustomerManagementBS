@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body onload="update()">
+    <div class="container">
+        <div class="header">
+            <h1>Salão da Dena</h1>
+        </div>
+        <div class="register">
+            Nova Cliente:
+            <input id="new-client" type="text" placeholder="Nome da Cliente" >
+            <button onclick="addClient()">OK</button>
+        </div>
+        <div class="content">
+            <div id="current-board">
+                <!-- <input class="find-input" type="text" placeholder="Buscar Cliente..."> -->
+                <h2>Clientes no Salão</h2>
+            </div> 
+            <div id="history-board">
+                <!-- <input class="find-input" type="text" placeholder="Buscar Cliente..."> -->
+                <h2>Clientes Encerrados</h2>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
